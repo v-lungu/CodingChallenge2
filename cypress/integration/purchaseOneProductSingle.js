@@ -41,7 +41,5 @@ describe('Find and purchase one item', () => {
         cy.get('#logout_sidebar_link').click()
 
         cy.get('#login_credentials').should('be.visible');
-
-
     })
 })
